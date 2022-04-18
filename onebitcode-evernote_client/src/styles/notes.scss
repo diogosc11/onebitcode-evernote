@@ -1,0 +1,29 @@
+@import "./custom_colors";
+
+.notes{
+  height: calc(100% - 70px);
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.bm-menu {
+  background: white;
+  padding-top: 10px;
+ }
+
+ .is-active{
+  .selectedItem{
+    background-color: #e4e4e4;
+    margin-bottom: 20px;
+  }
+ }
+
+ .notes-editor{
+  padding: 0;
+  background-color: white;
+  height: calc(100% - 43px);
+ 
+   .quill{
+    height: 100%;
+   }
+ }

@@ -1,0 +1,56 @@
+@import "./custom_colors";
+
+nav.navbar {
+ height: 70px;
+ border-bottom: 1px solid black;
+
+  .navbar-brand {
+    img {
+      height: 40px;
+      margin-top: 15px;
+    }
+  }
+
+  .logoImage {
+    max-width: 70%;
+  }
+
+  .registerButton {
+    color: $custom-purple;
+  }
+
+  .registerButton:hover {
+    color: $custom-purple;
+  }
+
+  .loginButton {
+    color: $custom-purple;
+    border-color: $custom-purple;
+  }
+
+  .loginButton:hover {
+    color: white;
+    background-color: $custom-purple;
+  }
+
+  .columns {
+    justify-content: flex-end;
+  }
+
+
+  @media (max-width: 1023px) {
+    .logoImage {
+      max-width: 40%;
+    }
+  }
+}
+
+.navbarLogged {
+  background-color: $custom-purple;
+}
+
+.navbarLogged {
+  .navbar-menu{
+  background-color: $custom-purple;
+  }
+}
